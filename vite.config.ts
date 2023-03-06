@@ -13,8 +13,8 @@ export default defineConfig((env) => {
     },
     plugins: [vue()],
     server: {
-      host: '0.0.0.0',
-      port: 1002,
+      host: '::',
+      port: 80,
       open: false,
       proxy: {
         '/api': {
